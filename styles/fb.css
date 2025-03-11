@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFC0CB;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-bar {
+    margin-top: 10px;
+}
+
+header .search-bar input[type="text"] {
+    width: 50%;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+header .search-bar button {
+    height: 30px;
+    font-size: 16px;
+    background-color: #32CD32;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header .nav-links {
+    margin-top: 10px;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.left-sidebar {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.left-sidebar .profile-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc
